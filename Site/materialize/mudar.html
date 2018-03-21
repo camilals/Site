@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="utf-8">
+	<style type="text/css">
+		h1 {
+			color: #424242;
+			font-size: xx-large;
+			padding: 1em;
+		}
+		h2 {
+			color: #424242;
+			font-size: x-large;
+		}
+	</style>
+
+	<title>Teste novo</title>
+</head>
+<body>
+<!--Barra de navegacao-->
+	<nav>
+		<div class="nav-wrapper light-blue darken-4">
+			<a href="#" class="brand-logo right">Logo</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul id="nav-mobile" class="left hide-on-med-and-down">
+				<li><a href="#!">Teste</a></li>
+				<li><a href="#!">Candidatos</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h1 class="center-align">Qual seria seu candidato ideal?</h1>
+		<!--Perguntas-->
+		<!--Pergunta 1-->
+		<div class="section">
+			<div class="row">
+				<div class="col s12 m10 l10 offset-m1 offset-l1">
+					<div class="card-panel indigo lighten-4">
+						<h2>Partido</h2>
+						<span class="black-text">O partido do candidato é um fator decisivo no seu voto?</span>
+					</div>
+					<form action="#">
+						<p>
+							<input class="with-gap" name="group1" type="radio" id="sim1" />
+							<label for="sim1">Sim</label>
+    					</p>
+    					<p>
+    						<input class="with-gap" name="group1" type="radio" id="nao1" />
+    						<label for="nao1">Não</label>
+    					</p>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="divider"></div>
+
+		<!--Pergunta 2-->
+		<div class="section">
+			<div class="row">
+				<div class="col s12 m10 l10 offset-m1 offset-l1">
+					<div class="card-panel indigo lighten-4">
+						<h2>Armas para civis</h2>
+						<span class="black-text">Você é favorável ao porte de armas para civis?</span>
+					</div>
+					<form action="#">
+						<p>
+							<input class="with-gap" name="group2" type="radio" id="sim2" />
+    						<label for="sim2">Sim</label>
+    					</p>
+    					<p>
+    						<input class="with-gap" name="group2" type="radio" id="nao2" />
+    						<label for="nao2">Não</label>
+    					</p>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="divider"></div>
+
+
+		<!--Pergunta3-->
+		<div class="section">
+			<div class="row">
+				<div class="col s12 m10 l10 offset-l1 offset-m1">
+					<div class="card-panel indigo lighten-4">
+						<h2>Criminalização do aborto</h2>
+						<span class="black-text">Você é favorável a criminalização do aborto?</span>
+					</div>
+				</div>
+			</div>
+			<!--selecao 3-->
+			<form action="#">
+    			<p>
+    				<input class="with-gap" name="group3" type="radio" id="sim3" />
+    				<label for="sim3">Sim</label>
+    			</p>
+    			<p>
+    				<input class="with-gap" name="group3" type="radio" id="nao3" />
+    				<label for="nao3">Não</label>
+    			</p>
+			</form>
+		</div>
+		<div class="divider"></div>
+
+		<!--botao enviar-->
+		<div class="row">
+			<div class="col s1 m2 l2 offset-s4 offset-m5 offset-l5">
+				<button class="btn waves-effect waves-light black-text" type="submit" name="action">Enviar
+				<i class="material-icons right">send</i>
+				</button>
+			</div>
+		</div>
+
+<!--Fechamento container-->
+    </div>
+
+<!--Footer-->
+<footer class="page-footer light-blue darken-4">
+	<div class="container">
+		<div class="row">
+			<div class="col l6 s12">
+				<h5 class="white-text">Footer Content</h5>
+				<p class="grey-text text-lighten-4"></p>
+			</div>
+			<div class="col l4 offset-l2 s12">
+				<h5 class="white-text">Links</h5>
+				<ul>
+					<li><a class="grey-text text-lighten-3" href="#!">Fale conosco</a></li>
+					<li><a class="grey-text text-lighten-3" href="#!">Sobre os desenvolvedores</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+		© 2018 Copyright Text
+		<a class="grey-text text-lighten-4 right" href="#!"></a>
+		</div>
+	</div>
+</footer>
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<!--Inicializando materialize.js-->
+	<script type="text/javascript" src="js/materialize.js"></script>
+</body>
+</html>
